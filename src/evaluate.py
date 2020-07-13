@@ -11,7 +11,7 @@ class Evaluation(object):
   def make_samples(self):
     raise NotImplementedError("Needs to implemented this method")
 
-
+# 定义两特征向量之间的距离
 def distance(v1, v2, d_type='d1'):
   assert v1.shape == v2.shape, "shape of two vectors need to be same!"
 
